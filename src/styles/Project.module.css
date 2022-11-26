@@ -1,0 +1,105 @@
+.project {
+  width: 260px;
+  height: 195px;
+  position: relative;
+}
+
+.project_popup {
+  display: none;
+  width: 260px;
+  height: 195px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--background-popup);
+}
+
+.project_popup > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_popup > div h3 {
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--color-light);
+}
+
+.project_popup > div .project_link {
+  width: 100px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--color-primary) solid 2px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.project_popup > div .project_link span {
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_popup > div .github {
+  margin-top: 10px;
+  font-size: 30px;
+  color: var(--color-primary);
+}
+
+.project:hover .project_popup {
+  display: block;
+}
+
+.Project-1 {
+  background-image: url('https://i.ibb.co/XZsPsk7/movieexpress.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Project-2 {
+  background-image: url('https://i.ibb.co/NrKSYLr/ninja-to-do-1-1-0.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Project-3 {
+  background-image: url('https://i.ibb.co/XCVWSVr/platzistore.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Project-4 {
+  background-image: url('https://i.ibb.co/Kmb0Kh4/rickandmorty.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Project-5 {
+  background-image: url('https://i.ibb.co/XjN8xfv/batatabit.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Project-6 {
+  background-image: url('https://i.ibb.co/Qbzd66y/platziday.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

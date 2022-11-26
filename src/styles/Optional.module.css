@@ -1,0 +1,29 @@
+.Optional {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0px 20px;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Optional button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sun_icon {
+  font-size: 30px;
+  color: var(--color-light);
+  transition: color 0.5s ease;
+}
+
+.moon_icon {
+  font-size: 30.5px;
+  color: var(--color-dark-theme-3);
+  transition: color 0.5s ease;
+}

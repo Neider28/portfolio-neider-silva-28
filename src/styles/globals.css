@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import '@styles/Light.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;  
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 62.5%;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--color-dark-theme);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-terciary);
+  border-radius: 0px;
+  border: 2px solid var(--color-dark-theme);
+}
+
+:root {
+  --color-primary: #58DB00;
+  --color-secundary: #ff7300;
+  --color-terciary: #f70000;
+  --color-light: #FFFFFF;
+  --color-dark-theme: #222120;
+  --color-dark-theme-2: #161616;
+  --color-dark-theme-3: #060606;
+  --color-linear: linear-gradient(42deg, var(--color-terciary) 0%, var(--color-primary) 50%, var(--color-terciary) 100%);
+  --color-linear-2: linear-gradient(42deg, var(--color-terciary) 0%, var(--color-light) 50%, var(--color-terciary) 100%);
+  --color-linear-3: linear-gradient(42deg, var(--color-dark-theme-3) 0%, var(--color-terciary) 50%, var(--color-dark-theme-3) 100%);
+  --shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  --shadow-2: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  --background-popup: rgba(20, 21, 22, 0.8);
+  --background-popup-2: rgb(247, 0, 0, 0.8);
+  --font-size-h1-1: 4rem;
+  --font-size-h1-2: 6rem;
+  --font-size-h2-1: 2.2rem;
+  --font-size-h3-1: 1.8rem;
+  --font-size-p-1: 1.1rem;
+  --font-size-p-2: 1.1rem;
+  --font-size-li-1: 1.6rem;
+  --font-size-li-2: 2rem;
+}
+
+h1 {
+  letter-spacing: 1px;
+  background-image: var(--color-linear);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+}
+
+h2 {
+  font-size: var(--font-size-h2-1);
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-align: center;
+  background-image: var(--color-linear);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+}
+
+h3 {
+  font-size: var(--font-size-h3-1);
+}

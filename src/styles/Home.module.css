@@ -1,0 +1,24 @@
+.main {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 60px;
+  left: 0px;
+  background-color: var(--color-dark-theme);
+}
+
+@media (min-width: 600px) {
+  .main {
+    top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    width: calc(100% - 90px);
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 90px;
+  }
+}

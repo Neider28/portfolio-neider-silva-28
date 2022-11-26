@@ -1,0 +1,9 @@
+.Layout {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .Layout {
+    display: flex;
+  }
+}

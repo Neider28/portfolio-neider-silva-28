@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  transition: background-color 0.5s ease;
+}
+
+.footer > div {
+  display: flex;
+  color: var(--color-dark-theme-3);
+}
+
+.footer > div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer > div p {
+  font-size: var(--font-size-p-1);
+  font-weight: bolder;
+}

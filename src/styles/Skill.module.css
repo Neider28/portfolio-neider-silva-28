@@ -9,6 +9,12 @@
   background-image: var(--color-linear);
   box-shadow: var(--shadow);
   transform: rotate(45deg);
+  transition: 500ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -ms-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
 }
 
 .skill_cont {
@@ -47,6 +53,23 @@
   top: 0;
   left: 0;
   background: var(--background-popup);
+}
+
+.skill:hover {
+  transform: scale(1.2);
+}
+
+.light_1 {
+  background-image: var(--color-linear-3);
+  box-shadow: var(--shadow-2);
+}
+
+.light_1 .skill_cont {
+  background-color: var(--color-light);
+}
+
+.light_1 .skill_icon {
+  color: var(--color-dark-theme-3);
 }
 
 @media (min-width: 600px) {

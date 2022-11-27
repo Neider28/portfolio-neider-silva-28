@@ -43,6 +43,12 @@
   background-image: var(--color-linear);
   box-shadow: var(--shadow);
   transform: rotate(45deg);
+  transition: 500ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -ms-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
 }
 
 .contact_item a {
@@ -58,11 +64,50 @@
   font-size: 30px;
   color: var(--color-terciary);
   transform: rotate(315deg);
+  transition: 700ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -ms-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
 }
 
 .contact_item a:hover .contact_icon {
   color: var(--color-light);
   border-color: var(--color-light);
+  transform: rotate(0deg);
+}
+
+.contact_item:hover {
+  transform: rotate(0deg);
+}
+
+.contact_img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.light_1 {
+  background-color: var(--color-light);
+}
+
+.light_1 h2 {
+  background-image: var(--color-linear-3);
+}
+
+.light_1 .contact_item {
+  background-image: var(--color-linear-3);
+  box-shadow: var(--shadow-2);
+}
+
+.light_1 .contact_item a {
+  background-color: var(--color-light);
+}
+
+.light_1 .contact_item a:hover .contact_icon {
+  color: var(--color-dark-theme-3);
 }
 
 @media (min-width: 600px) {
@@ -77,5 +122,10 @@
 
   .contact_icon {
     font-size: 35px;
+  }
+
+  .contact_img {
+    width: 300px;
+    height: 300px;
   }
 }

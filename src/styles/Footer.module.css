@@ -26,3 +26,15 @@
   font-size: var(--font-size-p-1);
   font-weight: bolder;
 }
+
+.light_3 {
+  background-color: var(--color-terciary);
+}
+
+.light_3 p {
+  color: var(--color-light);
+}
+
+.light_3 span {
+  color: var(--color-light);
+}

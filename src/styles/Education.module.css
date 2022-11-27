@@ -88,6 +88,14 @@
   color: var(--color-light);
 }
 
+.light_2 h2 {
+  background-image: var(--color-linear-2);
+}
+
+.light_2 .education_card {
+  background-image: var(--color-linear-2);
+}
+
 @media (min-width: 700px) {
   .education_content {
     display: flex;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { Icon } from '@iconify/react';
 import { AppContext } from '@context/AppContext.js';
 import logo from '@assets/logo.png';

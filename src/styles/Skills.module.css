@@ -32,6 +32,15 @@
   justify-content: space-evenly;
 }
 
+.light_1 {
+  background-color: var(--color-light);
+  transition: background-color 0.5s ease;
+}
+
+.light_1 h2 {
+  background-image: var(--color-linear-3);
+}
+
 @media (min-width: 600px) {
   .skills_content {
     width: 480px;

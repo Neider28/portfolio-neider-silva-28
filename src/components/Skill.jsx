@@ -7,7 +7,7 @@ const Skill = ({ icon, name }) => {
   const { onMode } = React.useContext(AppContext);
 
   return (
-    <div className={styles.skill}>
+    <div className={`${styles.skill} ${onMode && `${styles.light_1}`}`}>
       <div className={styles.skill_cont}>
         <Icon icon={icon} className={styles.skill_icon} />
         <div className={styles.skill_popup}>

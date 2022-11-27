@@ -22,6 +22,9 @@
 .hero_title h1 {
   font-size: var(--font-size-h1-1);
   text-align: center;
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+  animation: text 3s 1;
 }
 
 .hero_title span {
@@ -30,10 +33,38 @@
   text-align: center;
 }
 
+@keyframes text {
+  0% {
+    margin-bottom: -5px;
+  }
+  30% {
+    letter-spacing: 7px;
+    margin-bottom: -5px;
+  }
+  85% {
+    letter-spacing: 0px;
+    margin-bottom: -5px;
+  }
+}
+
 .hero_image {
   width: 90%;
   height: 200px;
   margin: 0 auto;
+}
+
+.light_1 {
+  background-color: var(--color-light);
+  transition: background-color 0.5s ease;
+}
+
+.light_1 .hero_title h1 {
+  background-image: var(--color-linear-3);
+}
+
+.light_1 .hero_title span {
+  color: var(--color-dark-theme-3);
+  font-weight: 600;
 }
 
 @media (min-width: 700px) {

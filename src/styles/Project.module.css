@@ -4,14 +4,29 @@
   position: relative;
 }
 
+.project img {
+  transition: 500ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -ms-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+}
+
 .project_popup {
-  display: none;
+  opacity: 0;
   width: 260px;
-  height: 195px;
+  height: 100px;
   position: absolute;
   top: 0;
   left: 0;
   background: var(--background-popup);
+  transition: 250ms;
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -ms-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
 }
 
 .project_popup > div {
@@ -59,47 +74,19 @@
 }
 
 .project:hover .project_popup {
-  display: block;
+  opacity: 1;
+  height: 195px;
 }
 
-.Project-1 {
-  background-image: url('https://i.ibb.co/XZsPsk7/movieexpress.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.project:hover img {
+  transform: scale(1.1) rotate(5deg);
 }
 
-.Project-2 {
-  background-image: url('https://i.ibb.co/NrKSYLr/ninja-to-do-1-1-0.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.light_2 .project_popup .project_link {
+  border: var(--color-terciary) solid 2px;
+  color: var(--color-terciary);
 }
 
-.Project-3 {
-  background-image: url('https://i.ibb.co/XCVWSVr/platzistore.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.Project-4 {
-  background-image: url('https://i.ibb.co/Kmb0Kh4/rickandmorty.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.Project-5 {
-  background-image: url('https://i.ibb.co/XjN8xfv/batatabit.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.Project-6 {
-  background-image: url('https://i.ibb.co/Qbzd66y/platziday.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.light_2 .project_popup .github {
+  color: var(--color-terciary);
 }

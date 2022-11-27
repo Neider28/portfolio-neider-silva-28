@@ -7,7 +7,7 @@ const Footer = () => {
   const { onMode } = React.useContext(AppContext);
 
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} ${onMode && `${styles.light_3}`}`}>
       <div>
         <span>
           <Icon icon="entypo:code" />

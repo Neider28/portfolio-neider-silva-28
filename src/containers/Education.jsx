@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { Icon } from '@iconify/react';
 import { AppContext } from '@context/AppContext.js';
 import speakers from '@assets/speakers.png';
@@ -10,7 +10,7 @@ const Education = () => {
   const { onMode, education } = React.useContext(AppContext);
 
   return (
-    <section className={styles.education} ref={education}>
+    <section className={`${styles.education} ${onMode && `${styles.light_2}`}`} ref={education}>
       <div className={styles.education_image}>
         <Image src={speakers} alt="speakers" width="100%" height="100%" layout="responsive" />
       </div>

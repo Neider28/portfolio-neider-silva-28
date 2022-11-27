@@ -12,7 +12,7 @@ const Footer = () => {
         <span>
           <Icon icon="entypo:code" />
         </span>
-        <p>By Neider Silva, 2022</p>
+        <p>By Neider Silva, 2023</p>
       </div>
     </footer>
   );

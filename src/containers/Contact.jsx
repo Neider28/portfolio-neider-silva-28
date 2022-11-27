@@ -19,7 +19,7 @@ const Contact = () => {
       </div>
       <div className={styles.contact_icons}>
         <div className={styles.contact_item}>
-          <a href="https://github.com/Neider28" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:neidersilva2802@gmail.com" target="_blank" rel="noopener noreferrer">
           <span>
             <Icon icon="cib:gmail" className={styles.contact_icon} />
           </span>
